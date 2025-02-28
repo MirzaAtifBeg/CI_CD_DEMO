@@ -45,7 +45,7 @@ public class GeoController {
         Map<String,Double> latLong = geoService.getCordinates(address);
         return latLong;
     }
-
+    system.out.println("Check to demo");
     /**
      * Endpoint to perform reverse geocoding by converting latitude and longitude to an address.
      *

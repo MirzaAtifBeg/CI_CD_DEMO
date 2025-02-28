@@ -25,7 +25,7 @@ import java.util.Map;
 @Service
 @Slf4j
 public class GeoService {
-
+    system.out.println("Hello");
     @Value("${positionstack.api-key}")
     private String apiKey;
 
